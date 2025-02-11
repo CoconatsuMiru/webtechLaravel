@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', 'App\Http\Controllers\LoginController@index'); 
+Route::get('/login', 'App\Http\Controllers\LoginController@index');
 
-Route::get('/profile', 'App\Http\Controllers\ProfileController@index'); 
+Route::get('/profile', 'App\Http\Controllers\ProfileController@index');
+
+Route::get('/hello', 'App\Http\Controllers\HelloController@index');
