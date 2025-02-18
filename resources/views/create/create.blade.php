@@ -32,11 +32,11 @@
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Price:</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
+            <input type="number" class="form-control" id="exampleInputPassword1">
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Quantity:</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
+            <input type="number" class="form-control" id="exampleInputPassword1">
           </div>
           <div class="row">
             <div class="col text-end">
