@@ -12,7 +12,9 @@ return new class extends Migration {
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('category_id');
             $table->string('items_name');
+            $table->integer('price');
             $table->timestamps();
         });
     }
