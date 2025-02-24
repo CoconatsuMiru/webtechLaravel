@@ -20,10 +20,10 @@
             <label for="categorySelect" class="form-label">Categories:</label>
             <select class="form-select" id="categorySelect">
               <option selected>Choose a category</option>
-              <option value="1">Technoloy</option>
-              <option value="2">Health</option>
-              <option value="3">Education</option>
-              <option value="4">Finance</option>
+              <option value="1">Tools</option>
+              <option value="2">Materials</option>
+              <option value="3">Wood</option>
+              <option value="4">Paint</option>
             </select>
           </div>
           <div class="mb-3">
