@@ -14,9 +14,10 @@ class CategoriesTableSeeder extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
-            ['id' => 1, 'categories_name' => 'Technology', 'description' => 'Latest gadgets and software.'],
-            ['id' => 2, 'categories_name' => 'Health', 'description' => 'Tips and products for a healthy life.'],
-            ['id' => 3, 'categories_name' => 'Education', 'description' => 'Resources for students and teachers.'],
+            ['last_name' => 'Rafols', 'first_name' => 'Rafael', 'ign' => 'Koffi'],
+            ['last_name' => 'Castro', 'first_name' => 'Wilkins', 'ign' => 'Lemon'],
+            ['last_name' => 'Uy', 'first_name' => 'Rhenzal', 'ign' => 'Yamjago'],
+            ['last_name' => 'Permison', 'first_name' => 'Aldec', 'ign' => 'Bubble'],
         ]);
     }
 }
